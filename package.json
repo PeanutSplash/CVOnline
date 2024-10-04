@@ -1,0 +1,28 @@
+{
+  "name": "cvonline",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:docker": "chmod +x ./build_and_push.sh && ./build_and_push.sh"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.1.5",
+    "@vue-office/pdf": "^2.0.2",
+    "file-saver": "^2.0.5",
+    "mitt": "^3.0.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-demi": "0.14.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
+  }
+}
