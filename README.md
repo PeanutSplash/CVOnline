@@ -47,5 +47,3 @@
 ## 许可证
 
 基于 [MIT](https://choosealicense.com/licenses/mit/) 许可证。
-
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
